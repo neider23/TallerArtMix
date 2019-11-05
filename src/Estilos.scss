@@ -1,0 +1,97 @@
+.GridApp{
+  
+  display:grid;
+  grid-template-columns: 150px 2fr;
+  grid-gap: 1.5rem;
+  background-color: #bccae0
+
+}
+
+.GridPrincipal{
+    grid-column-start: 2;
+    padding:20px;
+    height:100vh;
+}
+.GridPage{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 0.5rem;
+    padding: 20px;
+}
+
+.Nav{
+    
+  background-image: linear-gradient(blue, grey);
+  height:100vh;
+  margin:0;
+  float: left;
+  width:150px;
+  display:flex;
+  justify-content:center;
+  padding:20px 20px 0 20px;
+  position:absolute;
+  z-index:10;
+
+}
+.List{
+    padding: 40px 40px;
+}
+.Item{
+    list-style-type: none;
+    color:white;
+    padding-top:30px;
+    font-weight: 600;
+    margin: 20px 0px;
+
+}
+
+.Img{
+    width:200px;
+}
+.Buscar{
+    padding-left: 5%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.Title{
+    width: 100%;
+    text-align: center;
+}
+.Modal{
+    margin: 100px 300px;
+    background-color: white;
+    height: 245px;
+    width: 520px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.Add{
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left : 520px;
+    background-color: #abc7f0;
+    margin-bottom: 30px;
+}
+.Btn{
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin:10px;
+    background-color: #abc7f0;
+}
+.Box{
+    background-color: #3d74c7;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}

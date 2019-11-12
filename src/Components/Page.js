@@ -63,6 +63,7 @@ class Page extends Component {
     });
   };
   render() {
+    this.componentDidMount();
     const { filterText, modal } = this.state;
     let cards;
     var ifModal;

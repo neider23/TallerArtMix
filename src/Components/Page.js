@@ -63,7 +63,9 @@ class Page extends Component {
     });
   };
   render() {
-    this.componentDidMount();
+    setTimeout(() => {this.componentDidMount();
+      
+    }, 2000);
     const { filterText, modal } = this.state;
     let cards;
     var ifModal;

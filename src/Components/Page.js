@@ -118,7 +118,7 @@ class Page extends Component {
       ifModal = (
         <>
           <h1 className="Title">ArtMix</h1>
-          <button onClick={this.handleModal}className="Add">Add</button>
+          <button onClick={this.handleModal}className="Añadir">Add</button>
          
           {cards}
         </>
